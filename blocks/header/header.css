@@ -179,6 +179,17 @@ header nav .nav-sections ul  {
   font-family: Figtree-Medium;
 }
 
+header nav .nav-sections ul > li:first-child {
+  font-family: var(--body-font-family);
+  font-weight: 700 !important;
+  border: 2px solid transparent;
+  padding: 5px 30px;
+  cursor: pointer;
+  color: #4a4a4a;
+  background-color: #ffc845;
+  border-radius: 0 0 0 15px;
+}
+
 header nav .nav-sections ul > li {
   font-weight: 700;
 }
@@ -233,6 +244,7 @@ header nav .nav-sections ul > li > ul > li {
     gap: 2em;
     margin: 0;
     font-size: var(--body-font-size-xs);
+    align-items: center;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
